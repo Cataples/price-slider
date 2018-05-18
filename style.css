@@ -7,21 +7,25 @@
 .slide-bar { 
     width: 600px;
     height: 10px;
-    background-color: green;
+    background-color: white;
+    border: 1px solid black;
     margin-top: 50px;
     border-radius: 10px;
     position: relative;
     margin-bottom: 30px;
+    left: 0px;
 }
 
 .slide-button {
     width: 30px;
-    height: 30px;
+    height: 20px;
+    top: 50%;
+    margin-top: -10px;
     border-radius: 50%;
     position: absolute;
-    bottom: -7.5px;
+    /* bottom: -7.5px; */
     z-index: 2;
-    background-color: red;
+    background-color: #ce7b7b;
     left: 0px;
 }
 
@@ -37,6 +41,12 @@
     height: 100%;
     position: relative;
     border-radius: 10px;
-    background-color: blue;
+    background-color: red;
     width: 0px;
+}
+
+.getValues,
+.initial,
+.last {
+    margin: 20px;
 }
